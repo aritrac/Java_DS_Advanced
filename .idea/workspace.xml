@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab24f03-d4c1-41c5-b170-8d11b72857fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem015/DeleteNodeFromBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem016/FindLeafCountNonRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem017/CountFullNodesNonRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem018/CountHalfNodesNonRecursive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +23,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WqZ8OpEohe1GPYUF2YwXnDWV3F" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -42,7 +46,33 @@
       <recent name="F:\IntelliJ_Workspaces\Data_Structures_Made_Easy\Stacks\src\solution\aritra\utils\nodes\defs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeleteNodeFromBinaryTree">
+  <component name="RunManager" selected="Application.CountHalfNodesNonRecursive">
+    <configuration name="CountFullNodesNonRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem017.CountFullNodesNonRecursive" />
+      <module name="Trees" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.aritra.problem017.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountHalfNodesNonRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem018.CountHalfNodesNonRecursive" />
+      <module name="Trees" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.aritra.problem018.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeepestNodeInABinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.aritra.problem014.DeepestNodeInABinaryTree" />
       <module name="Trees" />
@@ -69,38 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindHeightOfABinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem010.FindHeightOfABinaryTree" />
+    <configuration name="FindLeafCountNonRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem016.FindLeafCountNonRecursive" />
       <module name="Trees" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.aritra.problem010.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindHeightOfTreeUsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem011.FindHeightOfTreeUsingStack" />
-      <module name="Trees" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.aritra.problem011.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindMaxDepthUsingLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem012.FindMaxDepthUsingLevelOrderTraversal" />
-      <module name="Trees" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.aritra.problem012.*" />
+          <option name="PATTERN" value="solution.aritra.problem016.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountHalfNodesNonRecursive" />
+        <item itemvalue="Application.CountFullNodesNonRecursive" />
+        <item itemvalue="Application.FindLeafCountNonRecursive" />
         <item itemvalue="Application.DeleteNodeFromBinaryTree" />
         <item itemvalue="Application.DeepestNodeInABinaryTree" />
-        <item itemvalue="Application.FindMaxDepthUsingLevelOrderTraversal" />
-        <item itemvalue="Application.FindHeightOfTreeUsingStack" />
-        <item itemvalue="Application.FindHeightOfABinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -136,26 +140,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580181997097" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1584458689265">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1584461678635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584458689265" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1584458689265">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584461678635" />
+    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1584461678635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584458689265" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1584458689265">
+    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584461678635" />
+    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1584461678635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584458689265" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1584458689265">
+    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584461678635" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1584461678635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584458689265" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584461678635" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583549886492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
