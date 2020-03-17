@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ab24f03-d4c1-41c5-b170-8d11b72857fe" name="Default Changelist" comment="" />
+    <list default="true" id="3ab24f03-d4c1-41c5-b170-8d11b72857fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem015/DeleteNodeFromBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WqZ8OpEohe1GPYUF2YwXnDWV3F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,13 +42,26 @@
       <recent name="F:\IntelliJ_Workspaces\Data_Structures_Made_Easy\Stacks\src\solution\aritra\utils\nodes\defs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeepestNodeInABinaryTree">
+  <component name="RunManager" selected="Application.DeleteNodeFromBinaryTree">
     <configuration name="DeepestNodeInABinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.aritra.problem014.DeepestNodeInABinaryTree" />
       <module name="Trees" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="solution.aritra.problem014.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteNodeFromBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem015.DeleteNodeFromBinaryTree" />
+      <module name="Trees" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.aritra.problem015.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,26 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintLevelsInReverseOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem009.PrintLevelsInReverseOrder" />
-      <module name="Trees" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.aritra.problem009.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteNodeFromBinaryTree" />
         <item itemvalue="Application.DeepestNodeInABinaryTree" />
         <item itemvalue="Application.FindMaxDepthUsingLevelOrderTraversal" />
         <item itemvalue="Application.FindHeightOfTreeUsingStack" />
         <item itemvalue="Application.FindHeightOfABinaryTree" />
-        <item itemvalue="Application.PrintLevelsInReverseOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -129,26 +136,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580181997097" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1583907688701">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1584458689265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583907688701" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1583907688701">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584458689265" />
+    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1584458689265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583907688701" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1583907688701">
+    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584458689265" />
+    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1584458689265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583907688701" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1583907688701">
+    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584458689265" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1584458689265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583907688701" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584458689265" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583549886492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -170,11 +177,11 @@
     </state>
     <state x="2381" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579879417116" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579916998553" />
-    <state x="342" y="141" key="new project wizard" timestamp="1583636747265">
+    <state x="342" y="141" key="new project wizard" timestamp="1584255910739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2262" y="141" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579878982612" />
-    <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583636747265" />
+    <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584255910739" />
     <state x="666" y="149" key="refactoring.ChangeSignatureDialog" timestamp="1580181495308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
