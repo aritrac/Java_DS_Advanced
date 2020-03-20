@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab24f03-d4c1-41c5-b170-8d11b72857fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem029/BuildTreeFromInorderAndPreorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ritu/src/BatteryTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ritu/src/SearchTypeCounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ritu/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ritu/src/UniqueCities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem030/CreateBTFromInorderPostorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem032/PrintAllAncestors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem033/FindLeastCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem034/ZigZagTreeTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem035/VerticalSumBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem036/FindNumTreeWithNNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +54,20 @@
       <recent name="F:\IntelliJ_Workspaces\Data_Structures_Made_Easy\Stacks\src\solution\aritra\utils\nodes\defs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BuildTreeFromInorderAndPreorder">
-    <configuration name="BuildTreeFromInorderAndPreorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem029.BuildTreeFromInorderAndPreorder" />
+  <component name="RunManager" selected="Application.FindNumTreeWithNNodes">
+    <configuration name="BatteryTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BatteryTester" />
+      <module name="Ritu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindNumTreeWithNNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem036.FindNumTreeWithNNodes" />
       <module name="Trees" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.aritra.problem029.*" />
+          <option name="PATTERN" value="solution.aritra.problem036.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +75,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateMirrorOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem027.CreateMirrorOfBinaryTree" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Ritu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerticalSumBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem035.VerticalSumBinaryTree" />
       <module name="Trees" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.aritra.problem027.*" />
+          <option name="PATTERN" value="solution.aritra.problem035.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,38 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsMirrorOfEachOtherBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem028.IsMirrorOfEachOtherBT" />
+    <configuration name="ZigZagTreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem034.ZigZagTreeTraversal" />
       <module name="Trees" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.aritra.problem028.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumAllNodesBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem025.SumAllNodesBinaryTree" />
-      <module name="Trees" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.aritra.problem025.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumAllNodesNonRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem026.SumAllNodesNonRecursive" />
-      <module name="Trees" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.aritra.problem026.*" />
+          <option name="PATTERN" value="solution.aritra.problem034.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BuildTreeFromInorderAndPreorder" />
-        <item itemvalue="Application.IsMirrorOfEachOtherBT" />
-        <item itemvalue="Application.CreateMirrorOfBinaryTree" />
-        <item itemvalue="Application.SumAllNodesNonRecursive" />
-        <item itemvalue="Application.SumAllNodesBinaryTree" />
+        <item itemvalue="Application.FindNumTreeWithNNodes" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.VerticalSumBinaryTree" />
+        <item itemvalue="Application.ZigZagTreeTraversal" />
+        <item itemvalue="Application.BatteryTester" />
       </list>
     </recent_temporary>
   </component>
@@ -138,59 +136,63 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580181997097" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1584585669536">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1584673602956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584585669536" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1584585669536">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584673602956" />
+    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1584673602956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584585669536" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1584585669536">
+    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584673602956" />
+    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1584673602955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584585669536" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1584585669536">
+    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584673602955" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1584673602956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584585669536" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583549886492">
+    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584673602956" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584640906162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583549886492" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1583549886492">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584640906162" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584640906161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583549886492" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1583549886492">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584640906161" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584640906161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583549886492" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1583549886492">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584640906161" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584640906161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583549886492" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584640906161" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1579916998553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579879417116" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579916998553" />
-    <state x="342" y="141" key="new project wizard" timestamp="1584255910739">
+    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1584586582009">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584586582009" />
+    <state x="342" y="141" key="new project wizard" timestamp="1584630818551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2262" y="141" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579878982612" />
-    <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584255910739" />
+    <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584630818551" />
     <state x="666" y="149" key="refactoring.ChangeSignatureDialog" timestamp="1580181495308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="149" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580181495308" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583760532538">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584669992249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583760532538" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584669992249" />
   </component>
 </project>
