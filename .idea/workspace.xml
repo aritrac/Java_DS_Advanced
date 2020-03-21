@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab24f03-d4c1-41c5-b170-8d11b72857fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem037/GenerateAllTreesOfNNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem038/ConstructTreeFromSpecialPreorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem039/SiblingBinaryTreeNodeNonRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem040/SiblingBinaryTreeNodeRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem041/SumAllElementsNNaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem044/CalcHeightAndDepthFromArrayRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem045/FindNodeSiblingsInNNaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem046/IsIsomorphicTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/tree/defs/NNaryTreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ritu/src/SearchTypeCounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ritu/src/SearchTypeCounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ritu/src/UniqueCities.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ritu/src/UniqueCities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ritu/SearchTypeCounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ritu/SearchTypeCounts.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,20 @@
       <recent name="F:\IntelliJ_Workspaces\Data_Structures_Made_Easy\Stacks\src\solution\aritra\utils\nodes\defs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConstructTreeFromSpecialPreorder">
+  <component name="RunManager" selected="Application.FindNodeSiblingsInNNaryTree">
+    <configuration name="CalcHeightAndDepthFromArrayRepresentation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem044.CalcHeightAndDepthFromArrayRepresentation" />
+      <module name="Trees" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.aritra.problem044.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConstructTreeFromSpecialPreorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.aritra.problem038.ConstructTreeFromSpecialPreorder" />
       <module name="Trees" />
@@ -64,25 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindNumTreeWithNNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem036.FindNumTreeWithNNodes" />
+    <configuration name="FindNodeSiblingsInNNaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem045.FindNodeSiblingsInNNaryTree" />
       <module name="Trees" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.aritra.problem036.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenerateAllTreesOfNNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem037.GenerateAllTreesOfNNodes" />
-      <module name="Trees" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.aritra.problem037.*" />
+          <option name="PATTERN" value="solution.aritra.problem045.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,20 +95,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Ritu" />
+    <configuration name="SumAllElementsNNaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem041.SumAllElementsNNaryTree" />
+      <module name="Trees" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.aritra.problem041.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindNodeSiblingsInNNaryTree" />
+        <item itemvalue="Application.CalcHeightAndDepthFromArrayRepresentation" />
+        <item itemvalue="Application.SumAllElementsNNaryTree" />
         <item itemvalue="Application.ConstructTreeFromSpecialPreorder" />
         <item itemvalue="Application.SearchTypeCounts" />
-        <item itemvalue="Application.GenerateAllTreesOfNNodes" />
-        <item itemvalue="Application.FindNumTreeWithNNodes" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -132,26 +136,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580181997097" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1584756004159">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1584776068608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584756004159" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1584756004159">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584776068608" />
+    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1584776068608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584756004159" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1584756004159">
+    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584776068608" />
+    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1584776068608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584756004159" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1584756004159">
+    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584776068608" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1584776068608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584756004159" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584776068608" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584640906162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -186,9 +190,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="149" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580181495308" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584669992249">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584763380948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584669992249" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584763380948" />
   </component>
 </project>
