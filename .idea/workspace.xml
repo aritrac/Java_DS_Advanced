@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab24f03-d4c1-41c5-b170-8d11b72857fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/tree/defs/BinarySearchTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/utils/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem054/LCAInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem055/FindBSTOrNot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
       <recent name="F:\IntelliJ_Workspaces\Data_Structures_Made_Easy\Stacks\src\solution\aritra\utils\nodes\defs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTree">
+  <component name="RunManager" selected="Application.FindBSTOrNot">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.aritra.utils.BinarySearchTree" />
       <module name="Trees" />
@@ -85,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetSiblingCountForNNaryTreeForANode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem048.GetSiblingCountForNNaryTreeForANode" />
+    <configuration name="FindBSTOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem055.FindBSTOrNot" />
       <module name="Trees" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.aritra.problem048.*" />
+          <option name="PATTERN" value="solution.aritra.problem055.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsQuasiIsomorphicTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem047.IsQuasiIsomorphicTree" />
+    <configuration name="LCAInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem054.LCAInBST" />
       <module name="Trees" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.aritra.problem047.*" />
+          <option name="PATTERN" value="solution.aritra.problem054.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindBSTOrNot" />
+        <item itemvalue="Application.LCAInBST" />
         <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.ExpressionTreeFromPostfixExpression" />
         <item itemvalue="Application.CreateKNaryTreeFromPreOrderArray" />
-        <item itemvalue="Application.GetSiblingCountForNNaryTreeForANode" />
-        <item itemvalue="Application.IsQuasiIsomorphicTree" />
       </list>
     </recent_temporary>
   </component>
@@ -139,26 +139,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580181997097" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1584871799772">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1584873381585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584871799772" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1584871799772">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584873381585" />
+    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1584873381585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584871799772" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1584871799772">
+    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584873381585" />
+    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1584873381585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584871799772" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1584871799772">
+    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584873381585" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1584873381585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584871799772" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584873381585" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584871799772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
