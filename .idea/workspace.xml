@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab24f03-d4c1-41c5-b170-8d11b72857fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem054/LCAInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem055/FindBSTOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem056/IsBSTOrNotCorrect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem057/IsBSTOrNotWithMinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem058/IsBSTUsingInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem059/BSTToDoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem060/ConvertSortedDLLToBalancedBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/src/solution/aritra/problem055/FindBSTOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem055/FindBSTOrNot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trees/solution/aritra/problem055/FindBSTOrNot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trees/solution/aritra/problem055/FindBSTOrNot.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +50,13 @@
       <recent name="F:\IntelliJ_Workspaces\Data_Structures_Made_Easy\Stacks\src\solution\aritra\utils\nodes\defs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindBSTOrNot">
-    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.utils.BinarySearchTree" />
+  <component name="RunManager" selected="Application.ConvertSortedDLLToBalancedBST">
+    <configuration name="BSTToDoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem059.BSTToDoublyLinkedList" />
       <module name="Trees" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.aritra.utils.*" />
+          <option name="PATTERN" value="solution.aritra.problem059.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateKNaryTreeFromPreOrderArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem049.CreateKNaryTreeFromPreOrderArray" />
+    <configuration name="ConvertSortedDLLToBalancedBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem060.ConvertSortedDLLToBalancedBST" />
       <module name="Trees" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.aritra.problem049.*" />
+          <option name="PATTERN" value="solution.aritra.problem060.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressionTreeFromPostfixExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem050.ExpressionTreeFromPostfixExpression" />
+    <configuration name="IsBSTOrNotCorrect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem056.IsBSTOrNotCorrect" />
       <module name="Trees" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.aritra.problem050.*" />
+          <option name="PATTERN" value="solution.aritra.problem056.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindBSTOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem055.FindBSTOrNot" />
+    <configuration name="IsBSTOrNotWithMinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem057.IsBSTOrNotWithMinMax" />
       <module name="Trees" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.aritra.problem055.*" />
+          <option name="PATTERN" value="solution.aritra.problem057.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LCAInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem054.LCAInBST" />
+    <configuration name="IsBSTUsingInorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem058.IsBSTUsingInorderTraversal" />
       <module name="Trees" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.aritra.problem054.*" />
+          <option name="PATTERN" value="solution.aritra.problem058.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindBSTOrNot" />
-        <item itemvalue="Application.LCAInBST" />
-        <item itemvalue="Application.BinarySearchTree" />
-        <item itemvalue="Application.ExpressionTreeFromPostfixExpression" />
-        <item itemvalue="Application.CreateKNaryTreeFromPreOrderArray" />
+        <item itemvalue="Application.ConvertSortedDLLToBalancedBST" />
+        <item itemvalue="Application.BSTToDoublyLinkedList" />
+        <item itemvalue="Application.IsBSTUsingInorderTraversal" />
+        <item itemvalue="Application.IsBSTOrNotWithMinMax" />
+        <item itemvalue="Application.IsBSTOrNotCorrect" />
       </list>
     </recent_temporary>
   </component>
@@ -139,42 +144,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580181997097" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1584873381585">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1584943725603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584873381585" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1584873381585">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584943725603" />
+    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1584943725603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584873381585" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1584873381585">
+    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584943725603" />
+    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1584943725603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584873381585" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1584873381585">
+    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584943725603" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1584943725603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584873381585" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584871799772">
+    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584943725603" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584873430026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584871799772" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584871799772">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584873430026" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584873430026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584871799772" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584871799772">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584873430026" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584873430026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584871799772" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584871799772">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584873430026" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584873430026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584871799772" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584873430026" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1579916998553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

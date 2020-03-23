@@ -1,15 +1,15 @@
-package solution.aritra.problem055;
+package solution.aritra.problem056;
 
 import solution.aritra.tree.defs.BinarySearchTreeNode;
 import solution.aritra.utils.BinarySearchTree;
 
 /**
  * Author: Aritra Chatterjee
- * Problem: Give an algorithm to check whether the given binary tree is a BST or not
- * Description: For each node check if the node on its left is smaller and check if the node on its right is greater.
- * REMEMBER THIS ALGO IS WRONG -> as it checks only the immediate children of a root, the next problem fixes this.
+ * Problem: Check if a given binary tree is a BST or not (CORRECT APPROACH)
+ * Description:For each node, check if max value in left subtree is smaller than the current node data and min value
+ * in right subtree greater than the node data.
  */
-public class FindBSTOrNot {
+public class IsBSTOrNotCorrect {
     public static void main(String[] args) {
         BinarySearchTreeNode bstRoot = BinarySearchTree.createTree();
         System.out.println("tree initially");
@@ -20,13 +20,13 @@ public class FindBSTOrNot {
     public static boolean isBST(BinarySearchTreeNode root){
         if(root == null)
             return true;
-        //false if left is > than root
-        if(root.getLeft() != null && root.getLeft().getData() > root.getData())
+        //false if the max of the left is > than root
+        if(root.getLeft() != null && BinarySearchTree.findMaximumRecursive(root.getLeft()).getData() > root.getData())
             return false;
-        //false if right is < than root
-        if(root.getRight() != null && root.getRight().getData() < root.getData())
+        //false if the min of the right is < than root
+        if(root.getRight() != null && BinarySearchTree.findMinimumRecursive(root.getRight()).getData() < root.getData())
             return false;
-        //false if recursively the left or right is not a BST
+        //false, if recursively the left or right is not a BST
         if(!isBST(root.getLeft()) || !isBST(root.getRight()))
             return false;
         //passing all that, its a BST
