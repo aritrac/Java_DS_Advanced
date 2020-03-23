@@ -38,6 +38,7 @@ public class ConvertSortedDLLToBalancedBST {
         BinarySearchTree.displayTree(sortedListToBST(head));
     }
 
+    //finding the length of the DLL and calling the tree creator method
     public static BinarySearchTreeNode sortedListToBST(BinarySearchTreeNode head){
         int len = 0;
         BinarySearchTreeNode currentNode = head;
@@ -56,7 +57,7 @@ public class ConvertSortedDLLToBalancedBST {
         BinarySearchTreeNode left = construct(head,start,mid - 1);
         BinarySearchTreeNode root = new BinarySearchTreeNode(head.getData());
         root.setLeft(left);
-        if(head.getRight() != null){
+        if(head.getRight() != null){ //traversing the DLL using the head node
             head.setData(head.getRight().getData());
             head.setRight(head.getRight().getRight());
         }
