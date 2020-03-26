@@ -9,6 +9,16 @@ import solution.aritra.utils.BinarySearchTree;
  */
 public class BinarySearchTreeNode {
     private int data;
+    private int size;
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
     private BinarySearchTreeNode left;
     private BinarySearchTreeNode right;
 
