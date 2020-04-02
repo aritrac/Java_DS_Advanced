@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab24f03-d4c1-41c5-b170-8d11b72857fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem076/BuildHeightBalancedBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem077/BuildHeightBalancedAnotherApproach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem080/FindIfAVLBSTOrNot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem081/GenerateAVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem082/RangeCountAVL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem084/HalfNodeRemovalBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem085/RemoveLeavesFronBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem086/PruneBSTBasedOnRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem087/LinkAdjacentNodesBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/src/solution/aritra/problem086/PruneBSTBasedOnRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem086/PruneBSTBasedOnRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/src/solution/aritra/tree/defs/BinarySearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/tree/defs/BinarySearchTreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,10 +140,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1585186476483">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1585802957870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585186476483" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585802957870" />
     <state x="602" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585190900010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -202,11 +197,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584586582009" />
-    <state x="342" y="141" key="new project wizard" timestamp="1584630818551">
+    <state x="342" y="141" key="new project wizard" timestamp="1585806780819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2262" y="141" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579878982612" />
-    <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584630818551" />
+    <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585806780819" />
     <state x="666" y="149" key="refactoring.ChangeSignatureDialog" timestamp="1580181495308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

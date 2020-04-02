@@ -21,6 +21,15 @@ public class BinarySearchTreeNode {
 
     private BinarySearchTreeNode left;
     private BinarySearchTreeNode right;
+    private BinarySearchTreeNode next;
+
+    public BinarySearchTreeNode getNext() {
+        return next;
+    }
+
+    public void setNext(BinarySearchTreeNode next) {
+        this.next = next;
+    }
 
     public BinarySearchTreeNode(int data){
         this.data = data;
