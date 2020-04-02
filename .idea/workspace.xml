@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab24f03-d4c1-41c5-b170-8d11b72857fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem075/NodesGreaterThanK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/tree/defs/AVLTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/utils/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem076/BuildHeightBalancedBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem077/BuildHeightBalancedAnotherApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem080/FindIfAVLBSTOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem081/GenerateAVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem082/RangeCountAVL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem084/HalfNodeRemovalBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem085/RemoveLeavesFronBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/problem086/PruneBSTBasedOnRange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/src/solution/aritra/tree/defs/BinarySearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/src/solution/aritra/tree/defs/BinarySearchTreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,26 +153,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="602" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585190900010" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1585189916756">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1585229744940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585189916756" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1585189916756">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585229744940" />
+    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1585229744940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585189916756" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1585189916756">
+    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585229744940" />
+    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1585229744940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585189916756" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1585189916756">
+    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585229744940" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1585229744940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585189916756" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585229744940" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585116884116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
