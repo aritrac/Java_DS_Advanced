@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab24f03-d4c1-41c5-b170-8d11b72857fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DivideAndConquerAlgorithms/src/problem030/TheSkylineProblem.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DivideAndConquerAlgorithms/src/problem031/TheSkylineProblemEfficient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
