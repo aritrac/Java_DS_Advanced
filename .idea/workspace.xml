@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab24f03-d4c1-41c5-b170-8d11b72857fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DivideAndConquerAlgorithms/src/problem031/TheSkylineProblemEfficient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/LongestCommonSubsequenceMemoizationDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/LongestCommonSubsequenceRecursive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,7 @@
       <recent name="F:\IntelliJ_Workspaces\Data_Structures_Made_Easy\Stacks\src\solution\aritra\utils\nodes\defs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RangeSearchK1K2InBSTUsingLeverOrder">
+  <component name="RunManager" selected="Application.LongestCommonSubsequenceMemoizationDP">
     <configuration name="FloorAndCeilInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.aritra.problem065.FloorAndCeilInBST" />
       <module name="Trees" />
@@ -64,15 +65,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthSmallestInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem064.KthSmallestInBST" />
-      <module name="Trees" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.aritra.problem064.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="LongestCommonSubsequenceMemoizationDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestCommonSubsequenceMemoizationDP" />
+      <module name="DynamicProgramming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestCommonSubsequenceRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestCommonSubsequenceRecursive" />
+      <module name="DynamicProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,26 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListToBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem063.SinglyLinkedListToBST" />
-      <module name="Trees" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.aritra.problem063.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonSubsequenceMemoizationDP" />
+        <item itemvalue="Application.LongestCommonSubsequenceRecursive" />
         <item itemvalue="Application.RangeSearchK1K2InBSTUsingLeverOrder" />
         <item itemvalue="Application.PrintElementsInRangeK1K2InBST" />
         <item itemvalue="Application.FloorAndCeilInBST" />
-        <item itemvalue="Application.KthSmallestInBST" />
-        <item itemvalue="Application.SinglyLinkedListToBST" />
       </list>
     </recent_temporary>
   </component>
@@ -148,26 +137,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="602" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585190900010" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1585229744940">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1586508234021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585229744940" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1585229744940">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586508234021" />
+    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1586508234021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585229744940" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1585229744940">
+    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586508234021" />
+    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1586508234020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585229744940" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1585229744940">
+    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586508234020" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1586508234021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585229744940" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586508234021" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585116884116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
