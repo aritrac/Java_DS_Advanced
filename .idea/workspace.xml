@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab24f03-d4c1-41c5-b170-8d11b72857fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem004/MaximumValueContiguousSubsequenceApp1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem005/MaximumContiguousSequenceSumOptimized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem006/ContiguousMaximumSumUsingDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem007/MaximumContiguousSumDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem009/MaxAlternateContiguousSumDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem010/MaxAlternateContiguousSumDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem013/CatalanNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem014/CatalanNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem015/MatrixProductParenthesization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,33 @@
       <recent name="F:\IntelliJ_Workspaces\Data_Structures_Made_Easy\Stacks\src\solution\aritra\utils\nodes\defs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumContiguousSumDP">
+  <component name="RunManager" selected="Application.CatalanNumbers (1)">
+    <configuration name="CatalanNumbers (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem014.CatalanNumbers" />
+      <module name="DynamicProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem014.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalanNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem013.CatalanNumbers" />
+      <module name="DynamicProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem013.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContiguousMaximumSumUsingDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem006.ContiguousMaximumSumUsingDP" />
       <module name="DynamicProgramming" />
@@ -67,19 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubsequenceMemoizationDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestCommonSubsequenceMemoizationDP" />
-      <module name="DynamicProgramming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumContiguousSequenceSumOptimized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem005.MaximumContiguousSequenceSumOptimized" />
+    <configuration name="MaxAlternateContiguousSumDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem009.MaxAlternateContiguousSumDP" />
       <module name="DynamicProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problem005.*" />
+          <option name="PATTERN" value="problem009.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,26 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumValueContiguousSubsequenceApp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem004.MaximumValueContiguousSubsequenceApp1" />
-      <module name="DynamicProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problem004.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CatalanNumbers (1)" />
+        <item itemvalue="Application.CatalanNumbers" />
+        <item itemvalue="Application.MaxAlternateContiguousSumDP" />
         <item itemvalue="Application.MaximumContiguousSumDP" />
         <item itemvalue="Application.ContiguousMaximumSumUsingDP" />
-        <item itemvalue="Application.MaximumContiguousSequenceSumOptimized" />
-        <item itemvalue="Application.MaximumValueContiguousSubsequenceApp1" />
-        <item itemvalue="Application.LongestCommonSubsequenceMemoizationDP" />
       </list>
     </recent_temporary>
   </component>
@@ -145,26 +152,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="602" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585190900010" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1586516283165">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1586532166411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586516283165" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1586516283165">
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586532166411" />
+    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1586532166411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586516283165" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1586516283164">
+    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586532166411" />
+    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1586532166411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586516283164" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1586516283165">
+    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586532166411" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1586532166411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579880306374" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586516283165" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586532166411" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585116884116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
