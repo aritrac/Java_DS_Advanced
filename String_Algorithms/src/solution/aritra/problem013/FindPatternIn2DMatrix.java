@@ -39,14 +39,14 @@ public class FindPatternIn2DMatrix {
             return true;
         if(nrow == x && ncol == y)
             return false;
-        if(mat[x][y] != pat[level] && level == 0){
+        if((x >= 0 && y >= 0 && x < 6 && y < 6) && mat[x][y] != pat[level] && level == 0){ //matching first character
             if(x < nrow - 1)
                 return findMatch(mat,pat,patLen,used,x+1,y,nrow,ncol,level); //next element in same row
             else if(y < ncol - 1)
-                return findMatch(mat,pat,patLen,used,0,y+1,nrow,ncol,level); //first element of the same col
+                return findMatch(mat,pat,patLen,used,0,y+1,nrow,ncol,level); //next element of the same col
             else
                 return false;
-        }else if(mat[x][y] == pat[level]){
+        }else if((x >= 0 && y >= 0 && x < 6 && y < 6) && mat[x][y] == pat[level]){
             boolean res;
             used[x][y] = 1; //marking this cell as used
             //finding subpattern in 8 neighbors
