@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab24f03-d4c1-41c5-b170-8d11b72857fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem030/BinarySearchTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem030/OptimalBinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem033/CalculateEditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem034/LongestPalindromicSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem035/LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem037/BottomAndRightMotionInMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem039/MaxSubsquareMatrixWith1s.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem041/FindMaxSumSubMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem042/MinNumbersWhoseSquareSumResultsToGivenNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/problem043/FindOptimalNumberOfJumpsToLastElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_Algorithms/String_Algorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/string/brute/force/algorithm/StringMatchBruteForce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/problem005/StringReversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/problem006/ReverseNonEditableString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/problem007/ReverseStringWithoutTempVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/problem008/ReverseWordsInASentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/problem009/PermutationsOfAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/problem010/CombinationsOfAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/problem011/RemoveAdjacentPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/problem012/MinWindowWithProvidedChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/problem013/FindPatternIn2DMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/util/TSTNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/util/TernarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/util/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/util/TrieNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,65 +63,65 @@
       <recent name="F:\IntelliJ_Workspaces\Data_Structures_Made_Easy\Stacks\src\solution\aritra\utils\nodes\defs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringMatchBruteForce">
-    <configuration name="FindMaxSumSubMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem041.FindMaxSumSubMatrix" />
-      <module name="DynamicProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problem041.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestPalindromicSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem034.LongestPalindromicSubsequence" />
-      <module name="DynamicProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problem034.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem035.LongestPalindromicSubstring" />
-      <module name="DynamicProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problem035.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinNumbersWhoseSquareSumResultsToGivenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem042.MinNumbersWhoseSquareSumResultsToGivenNumber" />
-      <module name="DynamicProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problem042.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringMatchBruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.string.brute.force.algorithm.StringMatchBruteForce" />
+  <component name="RunManager" selected="Application.FindPatternIn2DMatrix">
+    <configuration name="CombinationsOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem010.CombinationsOfAString" />
       <module name="String_Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.aritra.string.brute.force.algorithm.*" />
+          <option name="PATTERN" value="solution.aritra.problem010.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindPatternIn2DMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem013.FindPatternIn2DMatrix" />
+      <module name="String_Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.aritra.problem013.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinWindowWithProvidedChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem012.MinWindowWithProvidedChars" />
+      <module name="String_Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.aritra.problem012.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PermutationsOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem009.PermutationsOfAString" />
+      <module name="String_Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.aritra.problem009.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveAdjacentPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem011.RemoveAdjacentPairs" />
+      <module name="String_Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.aritra.problem011.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringMatchBruteForce" />
-        <item itemvalue="Application.MinNumbersWhoseSquareSumResultsToGivenNumber" />
-        <item itemvalue="Application.FindMaxSumSubMatrix" />
-        <item itemvalue="Application.LongestPalindromicSubstring" />
-        <item itemvalue="Application.LongestPalindromicSubsequence" />
+        <item itemvalue="Application.FindPatternIn2DMatrix" />
+        <item itemvalue="Application.MinWindowWithProvidedChars" />
+        <item itemvalue="Application.RemoveAdjacentPairs" />
+        <item itemvalue="Application.CombinationsOfAString" />
+        <item itemvalue="Application.PermutationsOfAString" />
       </list>
     </recent_temporary>
   </component>
@@ -161,26 +161,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="602" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585190900010" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1587215507530">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1590894309306">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587215507530" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586755470327" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1587215507530">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590646353278" />
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590894309306" />
+    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1590894309306">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587215507530" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586755470327" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1587215507530">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590646353278" />
+    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590894309306" />
+    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1590894309306">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587215507530" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586755470327" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1587215507530">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590646353278" />
+    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590894309306" />
+    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1590894309306">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587215507530" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586755470327" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590646353278" />
+    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590894309306" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585116884116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -213,9 +213,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590633661598" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586511759389">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590847693756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586511759389" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590847693756" />
   </component>
 </project>
