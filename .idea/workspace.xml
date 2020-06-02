@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab24f03-d4c1-41c5-b170-8d11b72857fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hashing/Hashing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/src/solution/aritra/misc/FirstRepeatedChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/src/solution/aritra/problem001/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/src/solution/aritra/problem001/HashTableNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/src/solution/aritra/problem001/HashTableOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/src/solution/aritra/problem001/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/src/solution/aritra/problem002/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/src/solution/aritra/problem003/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/src/solution/aritra/problem004/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/src/solution/aritra/problem013/RemoveIntersectingChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/src/solution/aritra/problem014/FirstNonRepeatedChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/src/solution/aritra/problem015/RemoveChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/src/solution/aritra/problem016/FirstRepeatedCharUsingHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/problem015/CaptureRegions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/problem016/WildCardMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/problem017/NumberCombinationsOfKGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/problem018/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelectionAlgorithms/src/problem001/FindLargestInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelectionAlgorithms/src/problem002/FindSmallestAndLargestInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelectionAlgorithms/src/problem003/FindLargestSmallestUsingPairComparison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelectionAlgorithms/src/problem010/KSmallestUsingPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelectionAlgorithms/src/problem015/MedianOfTwoSortedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/problem013/FindPatternIn2DMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/String_Algorithms/src/solution/aritra/problem013/FindPatternIn2DMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/String_Algorithms/solution/aritra/problem013/FindPatternIn2DMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/String_Algorithms/solution/aritra/problem013/FindPatternIn2DMatrix.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,13 +201,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584586582009" />
-    <state x="342" y="141" key="new project wizard" timestamp="1590903613082">
+    <state x="342" y="141" key="new project wizard" timestamp="1590545258420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590903613082" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590543449933">
+    <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590545258420" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590545888749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590543449933" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590545888749" />
   </component>
 </project>
