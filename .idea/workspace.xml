@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab24f03-d4c1-41c5-b170-8d11b72857fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GraphAlgorithms/GraphAlgorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphAlgorithms/src/solution/aritra/bfs/BFSTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphAlgorithms/src/solution/aritra/dfs/DFSTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphAlgorithms/src/solution/aritra/dijkstra/DijkstraImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphAlgorithms/src/solution/aritra/kruskals/KruskalsAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphAlgorithms/src/solution/aritra/prims/PrimsAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphAlgorithms/src/solution/aritra/util/AdjacencyListForUndirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphAlgorithms/src/solution/aritra/util/AdjacencyMatrixForUndirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphAlgorithms/src/solution/aritra/util/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/Sorting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/src/solution/aritra/bubblesort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/src/solution/aritra/bubblesort/BubbleSortImproved.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -60,7 +54,33 @@
       <recent name="F:\IntelliJ_Workspaces\Data_Structures_Made_Easy\Stacks\src\solution\aritra\utils\nodes\defs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KruskalsAlgorithm">
+  <component name="RunManager" selected="Application.BubbleSortImproved">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.bubblesort.BubbleSort" />
+      <module name="Sorting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.aritra.bubblesort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSortImproved" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.aritra.bubblesort.BubbleSortImproved" />
+      <module name="Sorting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.aritra.bubblesort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DijkstraImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.aritra.dijkstra.DijkstraImplementation" />
       <module name="GraphAlgorithms" />
@@ -87,19 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem030.MaximumSlidingWindow" />
-      <module name="PriorityQueuesAndHeaps" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.aritra.problem030.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrimsAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.aritra.prims.PrimsAlgorithm" />
       <module name="GraphAlgorithms" />
@@ -113,26 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.aritra.problem002.RemoveDuplicates" />
-      <module name="Hashing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.aritra.problem002.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSortImproved" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.KruskalsAlgorithm" />
         <item itemvalue="Application.PrimsAlgorithm" />
         <item itemvalue="Application.DijkstraImplementation" />
-        <item itemvalue="Application.MaximumSlidingWindow" />
-        <item itemvalue="Application.RemoveDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -158,62 +152,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590985243394" />
-    <state x="602" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585190900010">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1594310018611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="602" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585190900010" />
-    <state width="1877" height="361" key="GridCell.Tab.0.bottom" timestamp="1592057677305">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594310018611" />
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom" timestamp="1594826850485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590646353278" />
-    <state width="1877" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592057677305" />
-    <state width="1877" height="361" key="GridCell.Tab.0.center" timestamp="1592057677305">
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594826850485" />
+    <state width="1877" height="361" key="GridCell.Tab.0.center" timestamp="1594826850485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590646353278" />
-    <state width="1877" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592057677305" />
-    <state width="1877" height="361" key="GridCell.Tab.0.left" timestamp="1592057677305">
+    <state width="1877" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594826850485" />
+    <state width="1877" height="361" key="GridCell.Tab.0.left" timestamp="1594826850485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590646353278" />
-    <state width="1877" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592057677305" />
-    <state width="1877" height="361" key="GridCell.Tab.0.right" timestamp="1592057677305">
+    <state width="1877" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594826850485" />
+    <state width="1877" height="361" key="GridCell.Tab.0.right" timestamp="1594826850485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590646353278" />
-    <state width="1877" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592057677305" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585116884116">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585116884116" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585116884116">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585116884116" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585116884116">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585116884116" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585116884116">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585116884116" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1584947316865">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584947316865" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584847504038">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584847504038" />
+    <state width="1877" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594826850485" />
     <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1591425576512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591425576512" />
-    <state x="342" y="141" key="new project wizard" timestamp="1591423804969">
+    <state x="342" y="141" key="new project wizard" timestamp="1594825523923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1591423804969" />
+    <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1594825523923" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590545888749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
